@@ -9,7 +9,7 @@ void displayBoard(char board[3][3]) {
         for (int j = 0; j < 3; j++) {
             printf("%c ", board[i][j]);
         }
-        printf("\n");
+	printf("\n");
     }
 }
 
